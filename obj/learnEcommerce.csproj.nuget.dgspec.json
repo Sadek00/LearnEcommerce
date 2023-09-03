@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\.Net\\learnEcommerce\\learnEcommerce.csproj": {}
+    "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj": {}
   },
   "projects": {
-    "F:\\.Net\\learnEcommerce\\learnEcommerce.csproj": {
+    "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\.Net\\learnEcommerce\\learnEcommerce.csproj",
+        "projectUniqueName": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj",
         "projectName": "learnEcommerce",
-        "projectPath": "F:\\.Net\\learnEcommerce\\learnEcommerce.csproj",
+        "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj",
         "packagesPath": "C:\\Users\\Ferdusi\\.nuget\\packages\\",
-        "outputPath": "F:\\.Net\\learnEcommerce\\obj\\",
+        "outputPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ferdusi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,23 +42,29 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             }
           },
           "imports": [

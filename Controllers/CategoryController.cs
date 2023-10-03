@@ -5,38 +5,40 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using learnEcommerce.Data;
 using learnEcommerce.Models;
+using learnEcommerce.DataAccess.Data;
+using learnEcommerce.Repositories.UnitOfWork;
 
-namespace learnEcommerce.Controllers
+namespace learnEcommerce.Web.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         // GET: Category
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
+            var view = _unitOfWork._categoryRepository.GetAll();
+              return view != null ?
+                          View(await view) :
                           Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
         }
 
         // GET: Category/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null || _unitOfWork._categoryRepository == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var category = await _unitOfWork._categoryRepository
+                .GetById(id);
             if (category == null)
             {
                 return NotFound();
@@ -60,8 +62,9 @@ namespace learnEcommerce.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
+                _unitOfWork._categoryRepository.Add(category);
+                await _unitOfWork.SaveAsync();
+                TempData["Success"] = "Category Added Successfully";
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -70,12 +73,12 @@ namespace learnEcommerce.Controllers
         // GET: Category/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null || _unitOfWork._categoryRepository == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _unitOfWork._categoryRepository.GetById(id);
             if (category == null)
             {
                 return NotFound();
@@ -99,8 +102,9 @@ namespace learnEcommerce.Controllers
             {
                 try
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
+                    _unitOfWork._categoryRepository.Update(category);
+                    await _unitOfWork.SaveAsync();
+                    TempData["Success"] = "Category Updated Successfully";
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -121,13 +125,13 @@ namespace learnEcommerce.Controllers
         // GET: Category/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Categories == null)
+            if (id == null || _unitOfWork._categoryRepository == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var category = await _unitOfWork._categoryRepository
+                .GetById(id);
             if (category == null)
             {
                 return NotFound();
@@ -141,23 +145,22 @@ namespace learnEcommerce.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Categories == null)
+            if (_unitOfWork._categoryRepository == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
             }
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _unitOfWork._categoryRepository.GetById(id);
             if (category != null)
             {
-                _context.Categories.Remove(category);
+                _unitOfWork._categoryRepository.Delete(category);
             }
-            
-            await _context.SaveChangesAsync();
+            await _unitOfWork.SaveAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CategoryExists(int id)
         {
-          return (_context.Categories?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_unitOfWork._categoryRepository?.GetById(id)!=null? true:false);
         }
     }
 }

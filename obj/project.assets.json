@@ -4031,6 +4031,44 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "learnEcommerce.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
+          "learnEcommerce.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/learnEcommerce.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/learnEcommerce.DataAccess.dll": {}
+        }
+      },
+      "learnEcommerce.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/learnEcommerce.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/learnEcommerce.Models.dll": {}
+        }
+      },
+      "learnEcommerce.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "learnEcommerce.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/learnEcommerce.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/learnEcommerce.Repositories.dll": {}
+        }
       }
     }
   },
@@ -11710,6 +11748,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "learnEcommerce.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../learnEcommerce.DataAccess/learnEcommerce.DataAccess.csproj",
+      "msbuildProject": "../learnEcommerce.DataAccess/learnEcommerce.DataAccess.csproj"
+    },
+    "learnEcommerce.Models/1.0.0": {
+      "type": "project",
+      "path": "../learnEcommerce.Models/learnEcommerce.Models.csproj",
+      "msbuildProject": "../learnEcommerce.Models/learnEcommerce.Models.csproj"
+    },
+    "learnEcommerce.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../learnEcommerce.Repositories/learnEcommerce.Repositories.csproj",
+      "msbuildProject": "../learnEcommerce.Repositories/learnEcommerce.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11719,7 +11772,10 @@
       "Microsoft.AspNetCore.Identity.UI >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9",
+      "learnEcommerce.DataAccess >= 1.0.0",
+      "learnEcommerce.Models >= 1.0.0",
+      "learnEcommerce.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11728,9 +11784,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj",
-      "projectName": "learnEcommerce",
-      "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.Web.csproj",
+      "projectName": "learnEcommerce.Web",
+      "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.Web.csproj",
       "packagesPath": "C:\\Users\\Ferdusi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\obj\\",
       "projectStyle": "PackageReference",
@@ -11748,7 +11804,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.DataAccess\\learnEcommerce.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.DataAccess\\learnEcommerce.DataAccess.csproj"
+            },
+            "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.Models\\learnEcommerce.Models.csproj": {
+              "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.Models\\learnEcommerce.Models.csproj"
+            },
+            "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.Repositories\\learnEcommerce.Repositories.csproj": {
+              "projectPath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce.Repositories\\learnEcommerce.Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

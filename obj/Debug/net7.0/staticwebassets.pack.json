@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\learnEcommerce.bundle.scp.css",
-      "PackagePath": "staticwebassets\\learnEcommerce.bundle.scp.css"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\learnEcommerce.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\learnEcommerce.Web.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\css\\site.css",
@@ -117,36 +117,36 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.css"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.css.map"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.rtl.min.css.map"
     },
     {
       "Id": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
@@ -245,19 +245,19 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.learnEcommerce.props",
-      "PackagePath": "build\\learnEcommerce.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.learnEcommerce.Web.props",
+      "PackagePath": "build\\learnEcommerce.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.learnEcommerce.props",
-      "PackagePath": "buildMultiTargeting\\learnEcommerce.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.learnEcommerce.Web.props",
+      "PackagePath": "buildMultiTargeting\\learnEcommerce.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.learnEcommerce.props",
-      "PackagePath": "buildTransitive\\learnEcommerce.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.learnEcommerce.Web.props",
+      "PackagePath": "buildTransitive\\learnEcommerce.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.learnEcommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.learnEcommerce.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],

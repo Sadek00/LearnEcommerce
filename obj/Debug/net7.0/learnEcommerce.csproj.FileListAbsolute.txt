@@ -261,3 +261,9 @@ C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\runtimes
 C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.DataAccess.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.Repositories.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.DataAccess.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.Models.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce\bin\Debug\net7.0\learnEcommerce.Repositories.pdb

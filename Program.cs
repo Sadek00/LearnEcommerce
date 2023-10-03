@@ -1,4 +1,8 @@
-using learnEcommerce.Data;
+using learnEcommerce.DataAccess.Data;
+using learnEcommerce.Models;
+using learnEcommerce.Repositories.GenericRepository;
+using learnEcommerce.Repositories.Repository;
+using learnEcommerce.Repositories.UnitOfWork;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +13,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+//Repositories & UnitOfWork
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7E8CnzNcfJMRQ5Ngn9AacloJzrB255l7kD0uziSrHJuXAg+glEqhxvieT1r6blt+cdYNnMS/I8+Mu8cQfAdYA==",
+  "dgSpecHash": "4DwqUjpuidc0RxbSZndcW1jtpRX9gT9/qxhkxoVa3nnL6uFZmktSxSNcHgguh0WtHhVhglkhaFwZUU2sqyrj1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\Ferdusi\\Desktop\\LearnEcommerce\\learnEcommerce\\learnEcommerce.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ferdusi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Ferdusi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

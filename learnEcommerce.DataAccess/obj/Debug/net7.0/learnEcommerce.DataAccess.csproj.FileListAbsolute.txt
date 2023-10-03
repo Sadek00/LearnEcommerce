@@ -1,0 +1,17 @@
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.DataAccess.deps.json
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.DataAccess.runtimeconfig.json
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.DataAccess.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.DataAccess.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\bin\Debug\net7.0\learnEcommerce.Models.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.AssemblyInfo.cs
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.csproj.CopyComplete
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\refint\learnEcommerce.DataAccess.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\learnEcommerce.DataAccess.genruntimeconfig.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.DataAccess\obj\Debug\net7.0\ref\learnEcommerce.DataAccess.dll

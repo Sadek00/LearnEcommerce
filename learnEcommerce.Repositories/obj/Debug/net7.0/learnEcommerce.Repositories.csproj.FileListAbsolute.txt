@@ -1,0 +1,17 @@
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.Repositories.deps.json
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.Repositories.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.Repositories.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.csproj.AssemblyReference.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.AssemblyInfoInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.AssemblyInfo.cs
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\refint\learnEcommerce.Repositories.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\ref\learnEcommerce.Repositories.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.DataAccess.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.DataAccess.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\bin\Debug\net7.0\learnEcommerce.Models.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Repositories\obj\Debug\net7.0\learnEcommerce.Repositories.csproj.CopyComplete

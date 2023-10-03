@@ -1,0 +1,12 @@
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\bin\Debug\net7.0\learnEcommerce.Models.deps.json
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\bin\Debug\net7.0\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\bin\Debug\net7.0\learnEcommerce.Models.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.csproj.AssemblyReference.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.AssemblyInfoInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.AssemblyInfo.cs
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\refint\learnEcommerce.Models.dll
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\learnEcommerce.Models.pdb
+C:\Users\Ferdusi\Desktop\LearnEcommerce\learnEcommerce.Models\obj\Debug\net7.0\ref\learnEcommerce.Models.dll
